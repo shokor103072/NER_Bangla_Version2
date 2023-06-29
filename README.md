@@ -9,7 +9,7 @@ Bangla NER data is collected from,
 
 ### Dependency
 ```bash
-conda install spacy=3.1
+conda install spacy==3.1
 pip install spacy-transformers # need if you want to use transformer 
 ```
 
