@@ -7,7 +7,7 @@ nlp = Bengali()
 # Add the transformer component
 nlp.add_pipe("transformer")
 
-# Load English tokenizer, tagger, parser and NER
+# Load the NER model
 nlp = spacy.load("/models_multilingual_bert/model-best")
 
 text_list = [
